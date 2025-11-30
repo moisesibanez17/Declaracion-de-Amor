@@ -35,20 +35,20 @@
 }
 
 #yesBtn {
-    background-color: #2ecc71;
+    background-color: #ff1493;
     color: white;
-    box-shadow: 0 0 15px #2ecc71;
+    box-shadow: 0 0 15px #ff1493;
 }
 
 #yesBtn:hover {
     transform: scale(1.1);
-    background-color: #27ae60;
+    background-color: #ff69b4;
 }
 
 #noBtn {
-    background-color: #e74c3c;
+    background-color: #db7093;
     color: white;
-    box-shadow: 0 0 15px #e74c3c;
+    box-shadow: 0 0 15px #db7093;
     position: relative; /* Important for movement */
 }
 

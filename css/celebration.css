@@ -1,7 +1,7 @@
 body {
     margin: 0;
     padding: 0;
-    background: radial-gradient(circle at center, #1a0b2e 0%, #000000 100%);
+    background: radial-gradient(circle at center, #5e1036 0%, #1f020e 100%);
     height: 100vh;
     overflow: hidden;
     font-family: 'Poppins', sans-serif;
@@ -42,7 +42,7 @@ body {
 }
 
 .heart {
-    background-color: #ff3860;
+    background-color: #ff1493;
     display: inline-block;
     height: 50px;
     margin: 0 10px;
@@ -50,14 +50,14 @@ body {
     top: 0;
     transform: rotate(-45deg);
     width: 50px;
-    box-shadow: 0 0 40px #ff3860;
+    box-shadow: 0 0 40px #ff1493;
     animation: heartbeat 1.2s infinite;
 }
 
 .heart:before,
 .heart:after {
     content: "";
-    background-color: #ff3860;
+    background-color: #ff1493;
     border-radius: 50%;
     height: 50px;
     position: absolute;

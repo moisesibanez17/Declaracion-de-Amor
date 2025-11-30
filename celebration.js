@@ -30,7 +30,7 @@ function launchFirework() {
 }
 
 function explode(x, y) {
-    const colors = ['#ff0000', '#00ff00', '#0000ff', '#ffff00', '#ff00ff', '#00ffff', '#ff69b4', '#ffa500', '#ffffff'];
+    const colors = ['#ff1493', '#ff69b4', '#ffb6c1', '#db7093', '#c71585', '#ffffff', '#ffd700'];
     const color = colors[Math.floor(Math.random() * colors.length)];
     const container = document.querySelector('.fireworks-container') || document.body;
     
